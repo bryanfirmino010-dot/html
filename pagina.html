@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de CSS</title>
+
+    <link rel="stylesheet" href="../estilo.css">
+
+    <!-- CSS IN-PAGE / INTERNO -->
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Aula de CSS</h1>
+
+        <p>
+            Nesta página vamos testar estilos inline, interno e externos.
+        </p>
+
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <section>
+            <h2>Seção 1: Textos</h2>
+
+            <p>
+                Este é um parágrafo comum para testar cor, tamanho de fonte,
+                espaçamento, alinhamento e altura de linha.
+            </p>
+
+            <p>
+                Este é outro parágrafo para comparar estilos diferentes.
+            </p>
+
+            <!-- CSS INLINE -->
+            <!-- Exemplo de estilo direto no elemento -->
+            <p style="color: red;">
+                Este parágrafo já possui CSS inline aplicado.
+            </p>
+        </section>
+
+        <section>
+            <h2>Seção 2: Cards</h2>
+
+            <div>
+                <h3>Card 1</h3>
+                <p>Este é o primeiro card.</p>
+                <button>Saiba mais</button>
+            </div>
+
+            <div>
+                <h3>Card 2</h3>
+                <p>Este é o segundo card.</p>
+                <button>Saiba mais</button>
+            </div>
+
+            <div>
+                <h3>Card 3</h3>
+                <p>Este é o terceiro card.</p>
+                <button>Saiba mais</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>Seção 3: Lista</h2>
+
+            <ul>
+                <li>HTML estrutura o conteúdo.</li>
+                <li>CSS estiliza a aparência.</li>
+                <li>JavaScript adiciona comportamento.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Seção 4: Tabela</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aluno</th>
+                        <th>Curso</th>
+                        <th>Presença</th>
+                        <th>Nota</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Ana</td>
+                        <td>HTML</td>
+                        <td>Presente</td>
+                        <td>9,0</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bruno</td>
+                        <td>CSS</td>
+                        <td>Presente</td>
+                        <td>8,5</td>
+                    </tr>
+
+                    <tr>
+                        <td>Carla</td>
+                        <td>JavaScript</td>
+                        <td>Ausente</td>
+                        <td>7,0</td>
+                    </tr>
+
+                    <tr>
+                        <td>Diego</td>
+                        <td>CSS</td>
+                        <td>Presente</td>
+                        <td>10,0</td>
+                    </tr>
+
+                    <tr>
+                        <td>Eduarda</td>
+                        <td>HTML</td>
+                        <td>Presente</td>
+                        <td>8,0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Seção 5: Imagem</h2>
+
+            <img src="https://picsum.photos/300/180" alt="Imagem aleatória">
+
+            <p>
+                A imagem acima pode ser usada para testar largura, borda,
+                sombra e arredondamento.
+            </p>
+        </section>
+
+        <section>
+            <h2>Seção 5: Formulário</h2>
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+
+                <br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+
+                <br><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <br>
+                <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+                <br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 - Brilha Mais Água Rasa<br>Desenvolvido para aula de CSS.</p>
+    </footer>
+
+</body>
+
+</html>
